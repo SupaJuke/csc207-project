@@ -1,0 +1,113 @@
+#phase1
+
+#Included
+src:
+    package presenter
+    package gui
+    package SaveFiles
+    package gateway
+    package databaseFiles
+    package usecase
+    package entity
+    mainForGUI
+    sqlite-jdbc-3.32.3.2.jar
+this readme
+UML diagram
+
+
+#Instructions
+
+Before you begin you will need to guarantee that you have a few libraries set up. Firstly in order to make sure the
+database will run (and the program) you will need to add the file /phase2/src/sqlite-jdbc-3.32.3.2.jar as a library.
+Simply open File > Project Structure > Libraries. Hit the plus at the top left-ish and locate the file mentioned above.
+Then click ok to everything.
+
+Next you will need to make sure that you have a JDK that will work with the Media class. Do not use the coretto JDK. It
+does not support Media. If you get any error regarding Media it will most likely be a JDK issue.
+
+Run the mainForGUI class located in src and you will be in the menu of the program where you can either log in, sign up,
+or close the program. In order to log in you must create a new user by using the sign up option.
+When you log in successfully you will be greeted with options ranging from Message to SignOut and if you are an
+organizer or speaker you will also have additional options related to your role.
+
+
+#Description
+
+This program is a conference management system that handles organizing events and users. Users of the program can sign
+up, log in, join events and message other users.
+
+There are 4 types of users in this program:
+- Attendee
+- Organizer
+- Speaker
+- VIP
+
+Attendee: An Attendee can message their friends, browse events, sign up to events, cancel events they signed up to,
+change their display name or password, and add/remove friends.
+
+Organizer: An organizer can do the same things as an Attendee but also create/remove events, add/remove speakers from
+an event, create and set rooms for events and create new accounts
+
+Speaker: A speaker can do the same things as an Attendee but also book to speak at an event and message users attending
+an event.
+
+VIP: A VIP can do the same things as an Attendee but also join VIP exclusive events.
+
+Events can have no speaker to multiple speakers, different technologies, furniture, and what types of users that can
+join the event. Events also have a capacity, time, and duration.
+
+
+Examples:
+If a user wants to see the details of an existing event they would press
+Login > Events > Browse all events > View Details
+
+If an organizer wants to make a room they would press
+Login > Organizer Menu > Create a Room > confirm
+
+If a speaker wanted to add themselves to an existing event they would press
+Login > Speaker Menu > Book to speak at an event > confirm
+
+
+The program has 4 starter accounts:
+
+Username: Attendee
+Password: Att
+Type: Attendee
+
+Username: Organizer
+Password: Org
+Type: Organizer
+
+Username: Speaker
+Password: Spk
+Type: Speaker
+
+Username: VIP
+Password: VIP
+Type: VIP
+
+Username: Student1
+Password: 1
+Type: Attendee
+
+Username: Student2
+Password: 2
+Type: Attendee
+
+Username: Student3
+Password: 3
+Type: Attendee
+
+#Acknowledgements
+Eric Lin
+Supanat Wangsutthitham
+Victor JJ Ma
+Jian Jia Chen
+Syed Tawsif Ahmed
+Steven Kimhen Lau
+Victor Do
+Asadullah Ahmed
+
+
+
+

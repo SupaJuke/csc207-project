@@ -1,0 +1,253 @@
+#phase1
+
+
+#Included
+src:
+    package controller
+    package gateway
+    package usecase
+    package entity
+    Main
+this readme
+UML diagram
+
+
+#Introduction
+
+In phase1 there is a conference where attendees to said conference can log in, sign up, join events and interact with
+other attendees via messages. There are event organizers who can also create events and rooms for events. Organizers
+can also message all attendees to an event. There are also speakers that speak at events. Events have a specific
+timeslot and room(s). All attendees have a username and password they use to log into the system in order to message or
+sign up for events.
+
+
+#Instructions
+
+Run the Main class located in src and you will be in the menu of the program where you can either log in, sign up, or
+close the program. In order to log in you must create a new user by using the sign up option.
+When you log in successfully you will be greeted with options ranging from Message to SignOut and if you are an
+organizer or speaker you will also have additional options related to your role.
+
+[1] - Message
+Message allows users to: 1) Send a message to another user
+                         3) Reply to a message
+Messages will be in the format [MsgID] [From] [To]
+- MsgIDs will start from 0
+
+[2] - Events
+Events allows users to: 1) Browse all events
+                        2) View the Events the user signed up to
+                        3) Sign up for an event
+                        3) Cancel attending an event
+The schedule will be in the format [ID] | <Event Name>
+and the detail of each event will be in the format Title:, Time:, Speaker:
+- IDs will start from 0
+- Time ranges from 0 to 23
+
+[3] - Profile
+Profile allows users to: 1) Change their display name
+                         2) Change their password
+- usernames cannot be changed
+
+[4] - Friends
+Friends allows users to: 1) Add a friend
+                         2) Remove a friend
+                         3) View their friend list
+
+[5] - SignOut
+SignOut allows users to sign out of the Main menu and return to the login menu
+
+[6] - Organizer Options (If the user is an organizer)
+Organizer Options allows users to: 1) Create an event
+                                   2) remove an event
+                                   3) Add a speaker to an event
+                                   4) Create a room
+                                   5) Set a room for an event
+- events require a name, time, and optional speaker
+- creating an event will assign it with an increasing numerical ID (0,1,2...)
+- rooms require a max capacity
+- creating a room will assign it with an increasing numerical ID (0, 1, 2...)
+
+[6] - Speaker Options (If the user is a speaker)
+Speaker Options allows users to: 1) Speak at an event
+                                 2) View events that the speaker is speaking at
+                                 3) View their message menu
+- The message menu allows users to send a message to users at a specific event and reply to messages
+
+These are the preset accounts that are saved in SaveFiles and can be used in the program:
+user: Victor
+pass: Do
+Type: Regular Attendee
+
+user: Org
+pass: Org
+Type: Organizer
+
+user: Skr
+pass: Skr
+Type: Speaker
+
+
+#Usage
+
+Example 1: Signing up
+
+=== Login ===
+[1] - Login
+[2] - Signup
+[3] - Close
+2
+Press enter to return to the Login Menu.
+Type in your new username: username
+Type in your new password: password
+Type in your new display name: user
+
+Select the Account Type:
+[1] - Regular Attendee
+[2] - Organizer
+[3] - Speaker
+1
+Sign Up successful.
+
+=== Login ===
+[1] - Login
+[2] - Signup
+[3] - Close
+
+Example 2: Logging in
+
+=== Login ===
+[1] - Login
+[2] - Signup
+[3] - Close
+1
+Press enter to return to the Login Menu.
+Type in your username: username
+Type in your password: password
+Login successful.
+
+=== user's Main Menu ===
+[1] - Message
+[2] - Events
+[3] - Profile
+[4] - Friends
+[5] - SignOut
+
+Example 3: Checking and signing up for an event
+
+=== Event Menu ===
+[1] - Browse all Events
+[2] - View the Events you signed up to
+[3] - Sign up for an Event
+[4] - Cancel attending an Event
+[5] - Exit
+1
+=== Schedule Menu ===
+Schedule:
+[ID] | <Event Name>
+-------------------------------
+[0] - Event
+[1] - CS Party
+
+[1] - View an Event's details
+[2] - Return
+1
+Title: CS Party, Time: 18, Speaker: speaker
+Press enter to return to the Schedule Menu.
+
+Example 4: Messaging a user
+=== Messenger Menu ===
+Here are your messages:
+
+[1] - Send a message.
+[2] - Reply to a message.
+[3] - Exit
+1
+Choose from a valid target:
+attendee1
+attendee2
+speaker
+Enter the message body:
+Hello
+Here are your messages:
+[MsgID: 1] [From: username] [To: speaker]:
+Hello
+
+[1] - Send a message.
+[2] - Reply to a message.
+[3] - Exit
+
+Example 5: Adding/Removing a friend
+=== user's Main Menu ===
+[1] - Message
+[2] - Events
+[3] - Profile
+[4] - Friends
+[5] - SignOut
+4
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+3
+--------------
+Friends List:
+--------------
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+1
+Enter friend username: Press enter to return to Friend options
+friend
+Successfully added friend.
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+3
+--------------
+Friends List:
+ - friend
+--------------
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+2
+Enter friend username: 
+friend
+Successfully removed friend.
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+3
+--------------
+Friends List:
+--------------
+=== Friend Menu ===
+[1] - Add a Friend
+[2] - Remove a Friend
+[3] - View Friend List
+[4] - Exit
+
+
+#Acknowledgements
+Eric Lin
+Supanat Wangsutthitham
+Victor JJ Ma
+Jian Jia Chen
+Syed Tawsif Ahmed
+Steven Kimhen Lau
+Victor Do
+Asadullah Ahmed
+
+
+
+

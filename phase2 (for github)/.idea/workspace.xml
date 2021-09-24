@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27c19092-6b83-4da8-a938-8aa4dbf4a7e1" name="Default Changelist" comment="Bug Fix">
+      <change beforePath="$PROJECT_DIR$/phase2/src/SaveFiles/EventManager.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase2/src/SaveFiles/RoomManager.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase2/src/databaseFiles/ConferenceSystem.db" beforeDir="false" afterPath="$PROJECT_DIR$/phase2/src/databaseFiles/ConferenceSystem.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase2/src/presenter/EventPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/phase2/src/presenter/EventPresenter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1knNOk88HlKR583iEhD3VF5wPtF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="usecase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.mainForGUI (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="phase2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.UserGUI" />
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainForGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainForGUI" />
+      <module name="phase2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainForGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.mainForGUI" />
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUserGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.testUserGUI" />
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.mainForGUI (1)" />
+        <item itemvalue="Application.mainForGUI" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.testUserGUI" />
+        <item itemvalue="Application.UserGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27c19092-6b83-4da8-a938-8aa4dbf4a7e1" name="Default Changelist" comment="" />
+      <created>1606332365973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606332365973</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Change List to ArrayList.">
+      <created>1606332955632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606332955632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change ArrayList back to List to be abstract.">
+      <created>1606416384763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606416384763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor the method name&#10;-(getRoomByEventIDandTime to getRoomByEventIDAndTime) (change from and to And)">
+      <created>1606416517797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606416517797</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implement VIPData and VIPManager&#10;Improve efficiency on AttendeeManager">
+      <created>1606683477613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606683477613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement UserGUI and UserPresenter (previously UserController)">
+      <created>1606944216396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606944216396</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement Saving System in UserPresenter&#10;Minor fixing AttendeeManager">
+      <created>1607026659656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607026659656</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix UserGUI such that you can construct it before launching.&#10;Change the order of saving in UserPresenter.">
+      <created>1607119547894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607119547894</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix UserGUI's changePassword button.&#10;Fix SpeakerPresenter's constructor: making sure the parameter is the correct one.&#10;Minor fixing on spacing in mainForGUI">
+      <created>1607531799109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607531799109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UserGUI&#10;- Big QOL change for both change display name + password&#10;- Add more complexity to logic behind password changing&#10;- Trying to make the return (to AccountGUI) button work&#10;&#10;UserPresenter&#10;- Add the logic part accordingly to the change in UserGUI&#10;&#10;AccountPresenter&#10;- Change the input to try to make the return button in LoginGUI work (but apparently failing)">
+      <created>1607538252242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607538252242</updated>
+    </task>
+    <task id="LOCAL-00010" summary="UserGUI&#10;- Change comment in closeGUI&#10;&#10;UserPresenter&#10;- Add the saving part (accidentally removed it in the last push)">
+      <created>1607539219008</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607539219008</updated>
+    </task>
+    <task id="LOCAL-00011" summary="LocalFileGateway&#10;-Properly print out updating information when updating display name and password">
+      <created>1607539445614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607539445614</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LocalFileGateway&#10;-Properly print out updating information when updating display name and password&#10;&#10;UserGUI&#10;-Add the title of the screen when changing scenes">
+      <created>1607550560582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607550560582</updated>
+    </task>
+    <task id="LOCAL-00013" summary="AccountController&#10;- Change method name (setPresenter &gt; setPresenters)&#10;&#10;AccountPresenter&#10;- Change setPresenter name to setPresenters and add a new input accordingly&#10;&#10;FriendGUI&#10;- Implement the return to menu button">
+      <created>1607551086182</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607551086182</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SpeakerGUI&#10;- Change menu texts">
+      <created>1607551287976</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607551287976</updated>
+    </task>
+    <task id="LOCAL-00015" summary="UserGUI&#10;- Change reaction when received blank display name&#10;&#10;UserPresenter&#10;- Change changeDisplayName method to prevent blank display name&#10;&#10;ConferenceSystem&#10;- Update UD of an account">
+      <created>1607552513651</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607552513651</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Attendee/Room/UserManagers&#10;- Updated JavaDocs&#10;&#10;UserGUI and UserPresenter&#10;- Added JavaDocs">
+      <created>1607575226230</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607575226230</updated>
+    </task>
+    <task id="LOCAL-00017" summary="UserGUI&#10;- Changed buttons size">
+      <created>1607622278495</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607622278495</updated>
+    </task>
+    <task id="LOCAL-00018" summary="UserGUI&#10;- Cleaned up the code">
+      <created>1607628687136</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607628687136</updated>
+    </task>
+    <task id="LOCAL-00019" summary="UserGUI&#10;- Cleaned up the code (even more)&#10;- Moved the logic part to UserPresenter&#10;&#10;UserPresenter&#10;- Implemented the logic part that was moved from UserGUI">
+      <created>1607629886384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607629886384</updated>
+    </task>
+    <task id="LOCAL-00020" summary="UserGUI&#10;- Even more code cleaning up">
+      <created>1607633680159</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607633680159</updated>
+    </task>
+    <task id="LOCAL-00021" summary="All Classes: Name changing (lowercasing methods)">
+      <created>1607635074468</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607635074468</updated>
+    </task>
+    <task id="LOCAL-00022" summary="EventPresenter&#10;- Name changing&#10;&#10;EventGUI&#10;- Name changing">
+      <created>1607635885109</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607635885109</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Event&#10;- Add a new method setRoomID&#10;&#10;EventPresenter&#10;- Properly update signUpToEvent and cancelForEvent&#10;&#10;UserGUI&#10;- Add @Override to accessUI&#10;&#10;RoomManager&#10;- Add new method removeUserInRoom">
+      <created>1607640125493</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607640125493</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Event&#10;- Change getRoom method&#10;&#10;EventGUI&#10;- Change the input accordingly&#10;- Add spacing for easier read&#10;&#10;EventManager&#10;- Remove unnecessary spaces&#10;&#10;EventPresenter&#10;- Fix signUpToEvent accordingly&#10;&#10;Room&#10;- Add checkRoomFreeAtTime">
+      <created>1607642211110</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607642211110</updated>
+    </task>
+    <task id="LOCAL-00025" summary="EventPresenter&#10;- Trying to implement Checking for overlaps">
+      <created>1607644403954</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607644403954</updated>
+    </task>
+    <task id="LOCAL-00026" summary="EventPresenter&#10;- Trying to implement Checking for overlaps&#10;&#10;EventController &amp; EventManager&#10;- Make ArrayList List (more abstract)">
+      <created>1607644759307</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607644759307</updated>
+    </task>
+    <task id="LOCAL-00027" summary="EventPresenter&#10;- Trying to implement Checking for overlaps (prob work now)">
+      <created>1607645403004</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607645403004</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Test Commit">
+      <created>1607646671866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607646671866</updated>
+    </task>
+    <task id="LOCAL-00029" summary="W/E Sorry!">
+      <created>1607649943240</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649943240</updated>
+    </task>
+    <task id="LOCAL-00030" summary="EventPresenter&#10;- Removed some extra code">
+      <created>1607650694414</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607650694414</updated>
+    </task>
+    <task id="LOCAL-00031" summary="EventPresenter&#10;- Fix Canceling&#10;&#10;Event&#10;- Change checkRoomStatus">
+      <created>1607652327715</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607652327715</updated>
+    </task>
+    <task id="LOCAL-00032" summary="EventPresenter&#10;- Fix signUpToEvent">
+      <created>1607652918849</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607652918849</updated>
+    </task>
+    <task id="LOCAL-00033" summary="EventPresenter&#10;- Bug fix cancelForEvent">
+      <created>1607653612892</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607653612892</updated>
+    </task>
+    <task id="LOCAL-00034" summary="UserPresenter&#10;- Cleaning up code so that it follows Clean Architecture&#10;(Change UD to username)">
+      <created>1607719691960</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607719691960</updated>
+    </task>
+    <task id="LOCAL-00035" summary="UserPresenter&#10;- Cleaning up code so that it follows Clean Architecture&#10;(Change UD to username)&#10;&#10;FriendPresenter&#10;- Cleaning up code&#10;&#10;FriendManager&#10;- Fix JavaDoc">
+      <created>1607720470621</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607720470621</updated>
+    </task>
+    <task id="LOCAL-00036" summary="UserPresenter&#10;- Implementing getDisplayName for UserGUI&#10;&#10;UserGUI&#10;- Remove UD from the local variable">
+      <created>1607720756097</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607720756097</updated>
+    </task>
+    <task id="LOCAL-00037" summary="AccountPresenter&#10;- Change the parameter of the UserGUI">
+      <created>1607720828333</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1607720828333</updated>
+    </task>
+    <task id="LOCAL-00038" summary="UserGUI&#10;- Bug Fix (UP.getDisplayname &gt; UP.getDisplayName)">
+      <created>1607720910738</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607720910738</updated>
+    </task>
+    <task id="LOCAL-00039" summary="EventManager&#10;- Fixed methods' implementation&#10;- Implemented CheckAlreadyAttendingEvent (moved from EventPresenter)&#10;&#10;Event&#10;- Implemented an empty constructor&#10;&#10;UserData&#10;- Removed a comment">
+      <created>1607727226566</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607727226566</updated>
+    </task>
+    <task id="LOCAL-00040" summary="EventManager&#10;- Change the privacy of checkAlreadyAttendingEvent from private to public">
+      <created>1607727300158</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607727300158</updated>
+    </task>
+    <task id="LOCAL-00041" summary="EventPresenter&#10;- Moved checkAlreadyAttendingEvent to EventManager">
+      <created>1607727941314</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607727941314</updated>
+    </task>
+    <task id="LOCAL-00042" summary="- Removed Controllers that are not being used&#10;- Moved AccountPresenterFactory and CC to Controllers&#10;- Refactor Presenters that are using CC">
+      <created>1607735436834</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607735436834</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Change directory of CC">
+      <created>1607735625325</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607735625325</updated>
+    </task>
+    <task id="LOCAL-00044" summary="AccountPresenterFactory&#10;- Fix typo in JavaDoc">
+      <created>1607735710420</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607735710420</updated>
+    </task>
+    <task id="LOCAL-00045" summary="EventManager&#10;- Bugfix">
+      <created>1607742961294</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607742961294</updated>
+    </task>
+    <task id="LOCAL-00046" summary="JavaDoc + Bug Fix">
+      <created>1607746313454</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607746313454</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Bug Fix">
+      <created>1607747474768</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607747474768</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/supa/Documents/Supa/Second Year/csc207/phase2/phase2/src/controller" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Event&#10;- Add a new method setRoomID&#10;&#10;EventPresenter&#10;- Properly update signUpToEvent and cancelForEvent&#10;&#10;UserGUI&#10;- Add @Override to accessUI&#10;&#10;RoomManager&#10;- Add new method removeUserInRoom" />
+    <MESSAGE value="Event&#10;- Change getRoom method&#10;&#10;EventGUI&#10;- Change the input accordingly&#10;- Add spacing for easier read&#10;&#10;EventManager&#10;- Remove unnecessary spaces&#10;&#10;EventPresenter&#10;- Fix signUpToEvent accordingly&#10;&#10;Room&#10;- Add checkRoomFreeAtTime" />
+    <MESSAGE value="EventPresenter&#10;- Trying to implement Checking for overlaps" />
+    <MESSAGE value="EventPresenter&#10;- Trying to implement Checking for overlaps&#10;&#10;EventController &amp; EventManager&#10;- Make ArrayList List (more abstract)" />
+    <MESSAGE value="EventPresenter&#10;- Trying to implement Checking for overlaps (prob work now)" />
+    <MESSAGE value="Test Commit" />
+    <MESSAGE value="W/E Sorry!" />
+    <MESSAGE value="EventPresenter&#10;- Removed some extra code" />
+    <MESSAGE value="EventPresenter&#10;- Fix Canceling&#10;&#10;Event&#10;- Change checkRoomStatus" />
+    <MESSAGE value="EventPresenter&#10;- Fix signUpToEvent" />
+    <MESSAGE value="EventPresenter&#10;- Bug fix cancelForEvent" />
+    <MESSAGE value="UserPresenter&#10;- Cleaning up code so that it follows Clean Architecture&#10;(Change UD to username)" />
+    <MESSAGE value="UserPresenter&#10;- Cleaning up code so that it follows Clean Architecture&#10;(Change UD to username)&#10;&#10;FriendPresenter&#10;- Cleaning up code&#10;&#10;FriendManager&#10;- Fix JavaDoc" />
+    <MESSAGE value="UserPresenter&#10;- Implementing getDisplayName for UserGUI&#10;&#10;UserGUI&#10;- Remove UD from the local variable" />
+    <MESSAGE value="AccountPresenter&#10;- Change the parameter of the UserGUI" />
+    <MESSAGE value="UserGUI&#10;- Bug Fix (UP.getDisplayname &gt; UP.getDisplayName)" />
+    <MESSAGE value="EventManager&#10;- Fixed methods' implementation&#10;- Implemented CheckAlreadyAttendingEvent (moved from EventPresenter)&#10;&#10;Event&#10;- Implemented an empty constructor&#10;&#10;UserData&#10;- Removed a comment" />
+    <MESSAGE value="EventManager&#10;- Change the privacy of checkAlreadyAttendingEvent from private to public" />
+    <MESSAGE value="EventPresenter&#10;- Moved checkAlreadyAttendingEvent to EventManager" />
+    <MESSAGE value="- Removed Controllers that are not being used&#10;- Moved AccountPresenterFactory and CC to Controllers&#10;- Refactor Presenters that are using CC" />
+    <MESSAGE value="Change directory of CC" />
+    <MESSAGE value="AccountPresenterFactory&#10;- Fix typo in JavaDoc" />
+    <MESSAGE value="EventManager&#10;- Bugfix" />
+    <MESSAGE value="JavaDoc + Bug Fix" />
+    <MESSAGE value="Bug Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fix" />
+  </component>
+</project>
